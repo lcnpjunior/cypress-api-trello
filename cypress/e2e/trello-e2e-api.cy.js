@@ -3,16 +3,6 @@
 context('Network Requests', () => {
   const API_KEY = ''
   const API_TOKEN = '' 
-  // const AUTH = `OAuth oauth_consumer_key="${API_KEY}", oauth_token="${API_TOKEN}"`
-
-  // const cardsListsName = [
-  //   'Henrique',
-  //   'Augusto',
-  //   'Guilherme',
-  //   'Alyfer',
-  //   'Dener',
-  //   'Luiz'
-  // ]
 
   it.only('create lists and cards', () => {
 
