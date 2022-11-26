@@ -1,0 +1,35 @@
+[
+  {
+    "boardName" : "backlog",
+    "boardId" : "",
+    "cardsList" : [
+      "backlog tarefa 01",
+      "backlog tarefa 02",
+      "backlog tarefa 03"
+    ]
+  },
+  {
+    "boardName" : "ToDo",
+    "cardsList" : [
+      "ToDo tarefa 01",
+      "ToDo tarefa 02",
+      "ToDo tarefa 03"
+    ]
+  },
+  {
+    "boardName" : "InProgress",
+    "cardsList" : [
+      "InProgress tarefa 01",
+      "InProgress tarefa 02",
+      "InProgress tarefa 03"
+    ]
+  },
+  {
+    "boardName" : "Done",
+    "cardsList" : [
+      "Done tarefa 01",
+      "Done tarefa 02",
+      "Done tarefa 03"
+    ]
+  }
+]
