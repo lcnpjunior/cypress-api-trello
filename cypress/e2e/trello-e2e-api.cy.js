@@ -1,8 +1,8 @@
 /// <reference types="cypress" />
 
 context('Network Requests', () => {
-  const API_KEY = ''
-  const API_TOKEN = '' 
+  const API_KEY =  Cypress.env('API_KEY')
+  const API_TOKEN = Cypress.env('API_TOKEN') 
 
   it.only('create lists and cards', () => {
 

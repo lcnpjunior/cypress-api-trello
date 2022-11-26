@@ -1,8 +1,8 @@
 /// <reference types="cypress" />
 
 context('Network Requests', () => {
-  const API_KEY = ''
-  const API_TOKEN = '' 
+  const API_KEY =  Cypress.env('API_KEY')
+  const API_TOKEN = Cypress.env('API_TOKEN') 
   // const AUTH = `OAuth oauth_consumer_key="${API_KEY}", oauth_token="${API_TOKEN}"`
 
   it('delete all lists', () => {
